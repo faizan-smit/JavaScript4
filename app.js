@@ -9,10 +9,10 @@ for(i=0; i<arr1.length; i++){
     arr2[i] = useInp;
 
 }
-document.write("<table border=1>");
+document.write("<table style='border: 1px solid black; width: 500px; border-collapse: collapse;'>");
 
  for(i=0; i<arr1.length; i++){
-    document.write("<tr> <td> "+ arr1[i] + "</td> <td>"+ arr2[i] + "</td>  <tr/>");
+    document.write("<tr> <td style='border: 1px solid black; width: 500px; border-collapse: collapse;'> "+ arr1[i] + "</td> <td style='border: 1px solid black; width: 500px; border-collapse: collapse;'>"+ arr2[i] + "</td>  <tr/>");
  }
 
  for(i=0; i<arr1.length; i++){
@@ -41,8 +41,8 @@ else {
     grade = 'not valid'
 }
 
-document.write("<tr> <td> Total </td> <td>"+ total + " out of 500</td>  <tr/>");
-document.write("<tr> <td> Percentage </td> <td>"+ percentage + "%</td>  <tr/>");
-document.write("<tr> <td> Grade </td> <td>"+ grade + "</td>  <tr/>");
+document.write("<tr> <td style='border: 1px solid black; width: 500px; border-collapse: collapse;'> Total </td> <td style='border: 1px solid black; width: 500px; border-collapse: collapse;'>"+ total + " out of 500</td>  <tr/>");
+document.write("<tr> <td style='border: 1px solid black; width: 500px; border-collapse: collapse;'> Percentage </td> <td style='border: 1px solid black; width: 500px; border-collapse: collapse;'>"+ percentage + "%</td>  <tr/>");
+document.write("<tr> <td style='border: 1px solid black; width: 500px; border-collapse: collapse;'> Grade </td> <td style='border: 1px solid black; width: 500px; border-collapse: collapse;'>"+ grade + "</td>  <tr/>");
  
 document.write("</table>");
